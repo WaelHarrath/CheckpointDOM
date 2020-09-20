@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DOM Shopping Cart</title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/res/shopping-cart-img.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Shopping Cart
+        </a>
+        <div class="ttPrice">
+            <h5>Total Prices : <span id="totalPrice">0</span>TND</h5>
+        </div>
+    </nav>
+    <main class="cards-section">
+        <div class="card" style="width: 18rem;">
+            <img src="https://ae01.alicdn.com/kf/HTB1jD2QafvsK1Rjy0Fiq6zwtXXan/Wedding-Shoes-For-Men-2020-Classic-Shoes-Men-Dress-Loafers-Casual-Shoes-Mens-Dress-Shoes-Schoenen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Classic Shoes <span class="itemprice">366</span>TND</h5>
+                <p class="card-text">Wedding Shoes For Men 2020 Classic Shoes Men Dress Loafers Casual Shoes Mens Dress Shoes Schoenen Heren Zapatos Elegantes Hombre.</p>
+            </div>
+            <div class="buttons">
+                <i class="fas fa-times btn rmv-btn"></i>
+                <i class="fas fa-heart btn like-btn" style="color: grey;"></i>
+            </div>
+            <div class="quantitybtn">
+                <button class="page-link"> <i class="fas fa-minus "></i></button>
+                <input type="text " name="QT " class="page-link qte" value="0">
+                <button class="page-link"><i class="fas fa-plus "></i></button>
+            </div>
+            <div class="d-flex justify-content-center price_money ">
+                <h3><span class="itemval">0</span>TND </h3>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://medias.fashionnetwork.com/image/upload/v1/medias/67808a0b77d832e4ef73a402491ab5a12648520.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nike Air Bag <span class="itemprice">235</span>TND</h5>
+                <p class="card-text">Les Nike Air Mag Back to the Future, sneakers les plus chères au monde.Initialement portées par Marty McFly</p>
+            </div>
+            <div class="buttons">
+                <i class="fas fa-times btn rmv-btn"></i>
+                <i class="fas fa-heart btn like-btn" style="color: grey;"></i>
+            </div>
+            <div class="quantitybtn">
+                <button class="page-link"> <i class="fas fa-minus "></i></button>
+                <input type="text " name="QT " class="page-link qte" value="0">
+                <button class="page-link "><i class="fas fa-plus "></i></button>
+            </div>
+            <div class="d-flex justify-content-center price_money ">
+                <h3><span class="itemval">0</span>TND </h3>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.tennis-warehouse.com/cache/400/AMSSFBW-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tennis Warehouse Asics <span class="itemprice">199</span>TND</h5>
+                <p class="card-text">Endorsed by Novak Djokovic, this shoe is quickly becoming a favorite amongst our playtest team as it offers loads of stability, support and speed.</p>
+            </div>
+            <div class="buttons">
+                <i class="fas fa-times btn rmv-btn"></i>
+                <i class="fas fa-heart btn like-btn" style="color: grey;"></i>
+            </div>
+            <div class="quantitybtn">
+                <button class="page-link"> <i class="fas fa-minus"></i></button>
+                <input type="text " name="QT " class="page-link qte" value="0">
+                <button class="page-link"><i class="fas fa-plus "></i></button>
+            </div>
+            <div class="d-flex justify-content-center price_money ">
+                <h3><span class="itemval">0</span>TND </h3>
+            </div>
+        </div>
+
+
+    </main>
+    <script>
+    </script>
+
+    <script src="js/script.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+</body>
+
+</html>
